@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karuppasamy T | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="scroll-progress"></div>
+    <header class="header">
+        <nav class="container">
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="mobile-menu-btn" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <button class="theme-toggle">
+                <i class="fas fa-moon theme-icon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero section">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I’m Karuppasamy</h1>
+            <p class="subtitle">I’m an <span id="typewriter"></span></p>
+            <img src="assets/profile.jpg" alt="Karuppasamy" class="hero-img">
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section alt-bg">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-box box-theme">
+                    <h3 class="subtitle">Who I Am</h3>
+                    <p>I’m Karuppasamy, a passionate full-stack developer and ECE student with a knack for crafting seamless digital experiences. With expertise in modern web technologies and IoT, I build projects that are both functional and innovative. My goal is to create solutions that make a difference.</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card box-theme">
+                        <h3>20+</h3>
+                        <p>IoT Projects</p>
+                    </div>
+                    <div class="stat-card box-theme">
+                        <h3>5+</h3>
+                        <p>Technologies Mastered</p>
+                    </div>
+                    <div class="stat-card box-theme">
+                        <h3>3+</h3>
+                        <p>Years of Experience in IoT</p>
+                    </div>
+                    <div class="stat-card box-theme">
+                        <h3>100%</h3>
+                        <p>Dedication to Innovation</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="journey-title">My Journey</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content box-theme">
+                        <h4>2022 - First IoT Project</h4>
+                        <p>Built a smart irrigation system with Arduino, igniting my IoT passion.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content box-theme">
+                        <h4>2023 - Advanced IoT</h4>
+                        <p>Developed smart home automation with ESP32 and cloud integration.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content box-theme">
+                        <h4>2024 - ARM Cortex M4</h4>
+                        <p>Mastered ARM Cortex M4 for embedded applications.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content box-theme">
+                        <h4>2025 - Final Year</h4>
+                        <p>Working on IoT solutions like solar monitoring and smart agriculture.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content box-theme">
+                        <h4>2026 - Future Goals</h4>
+                        <p>Aiming to innovate in IoT and embedded systems at a leading tech firm.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="container">
+            <h2>Resume</h2>
+            <div class="resume-content">
+                <div class="resume-section">
+                    <h3>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content box-theme">
+                                <h4>2022–2026: B.E. Electronics and Communication Engineering</h4>
+                                <p>Kalasalingam Academy Of Research And Education, Tamil Nadu (CGPA: 8/10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-section">
+                    <h3>Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content box-theme">
+                                <h4>2022–Present: IoT Project Developer</h4>
+                                <p>Developed 20+ IoT projects, including smart irrigation, home automation, and solar monitoring, using ESP32, Arduino, and cloud platforms.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-section">
+                    <h3>Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill box-theme">
+                            <h3>Embedded Systems</h3>
+                            <ul>
+                                <li>ESP32</li>
+                                <li>STM32</li>
+                                <li>Arduino</li>
+                                <li>Embedded C</li>
+                                <li>FreeRTOS</li>
+                            </ul>
+                        </div>
+                        <div class="skill box-theme">
+                            <h3>IoT</h3>
+                            <ul>
+                                <li>WiFi</li>
+                                <li>Bluetooth</li>
+                                <li>LoRa</li>
+                                <li>MQTT</li>
+                                <li>HTTP/REST</li>
+                            </ul>
+                        </div>
+                        <div class="skill box-theme">
+                            <h3>Mobile</h3>
+                            <ul>
+                                <li>Flutter</li>
+                                <li>Dart</li>
+                                <li>Firebase</li>
+                                <li>Google Maps API</li>
+                            </ul>
+                        </div>
+                        <div class="skill box-theme">
+                            <h3>Cloud</h3>
+                            <ul>
+                                <li>Firebase</li>
+                                <li>Fast API</li>
+                                <li>Real-time Database</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-download">
+                    <a href="assets/Karuppasamy_Resume.pdf" class="cta-button" download>Download Resume PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section alt-bg">
+        <div class="container">
+            <h2>Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card box-theme" data-dialog-id="achievement-dialog-1">
+                    <img src="assets/matlab-workshop.jpg" alt="MATLAB & Simulink Workshop" class="achievement-img">
+                    <h3>MATLAB & Simulink Workshop at IIT Chennai</h3>
+                    <p>I attended a two-day workshop by MathWorks at IIT Chennai focused on advanced MATLAB and Simulink applications.</p>
+                </div>
+                <div class="achievement-card box-theme" data-dialog-id="achievement-dialog-2">
+                    <img src="assets/emergency-response.jpg" alt="Smart Ambulance System" class="achievement-img">
+                    <h3>Smart Ambulance System</h3>
+                    <p>IoT-based solution for emergency response with real-time tracking and traffic signal control.</p>
+                </div>
+                <div class="achievement-card box-theme" data-dialog-id="achievement-dialog-3">
+                    <img src="assets/soft-skills.jpg" alt="Introduction to Soft Skills" class="achievement-img">
+                    <h3>Introduction to Soft Skills</h3>
+                    <p>Completed a TCS iON course on workplace competencies like time management and teamwork.</p>
+                </div>
+                <div class="achievement-card box-theme" data-dialog-id="achievement-dialog-4">
+                    <img src="assets/communication-skills.jpg" alt="Communication Skills" class="achievement-img">
+                    <h3>Communication Skills</h3>
+                    <p>Completed a TCS iON course on professional communication, including email etiquette and presentation skills.</p>
+                </div>
+            </div>
+            <dialog id="achievement-dialog-1" class="achievement-dialog">
+                <div class="dialog-content">
+                    <div class="dialog-header">
+                        <h3>MATLAB & Simulink Workshop at IIT Chennai</h3>
+                        <button class="close-dialog"><i class="fas fa-times"></i></button>
+                    </div>
+                    <img src="assets/matlab-workshop.jpg" alt="MATLAB & Simulink Workshop" class="dialog-img">
+                    <div class="dialog-details">
+                        <p>I attended a two-day workshop by MathWorks at IIT Chennai focused on advanced MATLAB and Simulink applications. It enhanced my practical skills through hands-on training in modeling, simulation, and algorithm development.</p>
+                        <p><strong>Issued by:</strong> MathWorks</p>
+                        <p><strong>Date:</strong> 2024</p>
+                        <p><a href="assets/matlab-workshop-certificate.pdf" target="_blank">View Certificate</a></p>
+                    </div>
+                </div>
+            </dialog>
+            <dialog id="achievement-dialog-2" class="achievement-dialog">
+                <div class="dialog-content">
+                    <div class="dialog-header">
+                        <h3>Smart Ambulance System</h3>
+                        <button class="close-dialog"><i class="fas fa-times"></i></button>
+                    </div>
+                    <img src="assets/emergency-response.jpg" alt="Smart Ambulance System" class="dialog-img">
+                    <div class="dialog-details">
+                        <p>Smart Ambulance System is an IoT-based solution that prioritizes emergency response by coordinating ambulances, traffic signals, and hospitals via dedicated Flutter apps. It enables real-time tracking and automated traffic signal control using ESP32/STM32 for faster, lifesaving interventions.</p>
+                        <p><strong>Issued by:</strong> Kalasalingam Academy</p>
+                        <p><strong>Date:</strong> 2025</p>
+                        <p><a href="assets/smart-ambulance-certificate.pdf" target="_blank">View Certificate</a></p>
+                    </div>
+                </div>
+            </dialog>
+            <dialog id="achievement-dialog-3" class="achievement-dialog">
+                <div class="dialog-content">
+                    <div class="dialog-header">
+                        <h3>Introduction to Soft Skills</h3>
+                        <button class="close-dialog"><i class="fas fa-times"></i></button>
+                    </div>
+                    <img src="assets/soft-skills.jpg" alt="Introduction to Soft Skills" class="dialog-img">
+                    <div class="dialog-details">
+                        <p>Completed a certified course by TCS iON focusing on key workplace competencies such as time management, adaptability, teamwork, and professional behavior.</p>
+                        <p><strong>Issued by:</strong> TCS iON</p>
+                        <p><strong>Date:</strong> 2025</p>
+                        <p><a href="assets/soft-skills-certificate.pdf" target="_blank">View Certificate</a></p>
+                    </div>
+                </div>
+            </dialog>
+            <dialog id="achievement-dialog-4" class="achievement-dialog">
+                <div class="dialog-content">
+                    <div class="dialog-header">
+                        <h3>Communication Skills</h3>
+                        <button class="close-dialog"><i class="fas fa-times"></i></button>
+                    </div>
+                    <img src="assets/communication-skills.jpg" alt="Communication Skills" class="dialog-img">
+                    <div class="dialog-details">
+                        <p>Successfully completed a comprehensive course on professional communication offered by TCS iON. The training covered verbal and non-verbal communication, email etiquette, and presentation techniques.</p>
+                        <p><strong>Issued by:</strong> TCS iON</p>
+                        <p><strong>Date:</strong> 2025</p>
+                        <p><a href="assets/communication-skills-certificate.pdf" target="_blank">View Certificate</a></p>
+                    </div>
+                </div>
+            </dialog>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <h3 class="subtitle">IoT Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card box-theme" data-dialog-id="project-dialog-1">
+                    <img src="assets/water-monitoring-system.jpg" alt="Water Monitoring System" class="project-img">
+                    <h3>Water Monitoring System</h3>
+                    <p>IoT-based system to monitor water clarity in vermifiltration using ESP32, sensors, Firebase, and a Flutter app.</p>
+                </div>
+                <div class="project-card box-theme" data-dialog-id="project-dialog-2">
+                    <img src="assets/gas-leakage-detection.jpg" alt="Gas Leakage Detection System" class="project-img">
+                    <h3>Gas Leakage Detection System</h3>
+                    <p>Real-time gas leak monitoring with microcontrollers, gas sensors, and cloud-based alerts.</p>
+                </div>
+                <div class="project-card box-theme" data-dialog-id="project-dialog-3">
+                    <img src="assets/glucose-monitoring.jpg" alt="Glucose Level Monitoring System" class="project-img">
+                    <h3>Glucose Level Monitoring System</h3>
+                    <p>STM32 and ESP32-based system with a Flutter app and Gemini AI chatbot for health suggestions.</p>
+                </div>
+                <div class="project-card box-theme" data-dialog-id="project-dialog-4">
+                    <img src="assets/air-quality-monitoring.jpg" alt="Air Quality Monitoring and Alert System" class="project-img">
+                    <h3>Air Quality Monitoring and Alert System</h3>
+                    <p>ESP32 and MQ2 sensor-based system with Firebase integration and a Flutter app for real-time air quality monitoring.</p>
+                </div>
+                <div class="project-card box-theme" data-dialog-id="project-dialog-5">
+                    <img src="assets/smart-ambulance-system.jpg" alt="Smart Ambulance System" class="project-img">
+                    <h3>Smart Ambulance System</h3>
+                    <p>IoT solution for emergency response with Flutter apps, ESP32/STM32, and Google Maps integration.</p>
+                </div>
+            </div>
+            <dialog id="project-dialog-1" class="project-dialog">
+                <div class="dialog-content">
+                    <div class="dialog-header">
+                        <h3>Water Monitoring System</h3>
+                        <button class="close-dialog"><i class="fas fa-times"></i></button>
+                    </div>
+                    <img src="assets/water-monitoring-system.jpg" alt="Water Monitoring System" class="dialog-img">
+                    <div class="dialog-details">
+                        <p>This Project has been Developed using ESP32 (Wi-Fi Module), Turbidity Sensor, DHT11 (Temperature Sensor to monitor the ideal condition for Earthworms), Raindrop Sensor and Soil Moisture Sensor. This Project is an IoT based system to monitor the clarity of water using specified parameters in Vermifiltration process. Later, This Data can be sent to the database (Firebase) and then to the App using Flutter language for Remote monitoring purposes.</p>
+                        <p><strong>Technologies:</strong> ESP32, Firebase, Flutter, Sensors</p>
+                        <p><strong>Year:</strong> 2025</p>
+                        <p><a href="assets/water-monitoring-project.pdf" target="_blank">View Project</a></p>
+                    </div>
+                </div>
+            </dialog>
+            <dialog id="project-dialog-2" class="project-dialog">
+                <div class="dialog-content">
+                    <div class="dialog-header">
+                        <h3>Gas Leakage Detection System</h3>
+                        <button class="close-dialog"><i class="fas fa-times"></i></button>
+                    </div>
+                    <img src="assets/gas-leakage-detection.jpg" alt="Gas Leakage Detection System" class="dialog-img">
+                    <div class="dialog-details">
+                        <p>Designed and implemented a “Gas Leakage Detection System” using IoT technology to enable real-time gas leak monitoring and instant alert notifications via cloud-based services. The system integrated microcontrollers, gas sensors, and wireless modules to deliver prompt safety measures, ensuring enhanced protection in both industrial and residential environments.</p>
+                        <p><strong>Technologies:</strong> Microcontrollers, Gas Sensors, Cloud Services</p>
+                        <p><strong>Year:</strong> 2025</p>
+                        <p><a href="assets/gas-leakage-project.pdf" target="_blank">View Project</a></p>
+                    </div>
+                </div>
+            </dialog>
+            <dialog id="project-dialog-3" class="project-dialog">
+                <div class="dialog-content">
+                    <div class="dialog-header">
+                        <h3>Glucose Level Monitoring System</h3>
+                        <button class="close-dialog"><i class="fas fa-times"></i></button>
+                    </div>
+                    <img src="assets/glucose-monitoring.jpg" alt="Glucose Level Monitoring System" class="dialog-img">
+                    <div class="dialog-details">
+                        <p>“Glucose level monitoring system” which is developed using STM32, ESP32 ( Wi-Fi Module ) and potentiometer ( Manually Generate Values ). We have designed a Flutter based app to obtain the Real-time data. The App loaded with key features including Chatbot AI powered by Gemini AI which gives suggestions based on history of the user health data.</p>
+                        <p><strong>Technologies:</strong> STM32, ESP32, Flutter, Gemini AI</p>
+                        <p><strong>Year:</strong> 2025</p>
+                        <p><a href="assets/glucose-monitoring-project.pdf" target="_blank">View Project</a></p>
+                    </div>
+                </div>
+            </dialog>
+            <dialog id="project-dialog-4" class="project-dialog">
+                <div class="dialog-content">
+                    <div class="dialog-header">
+                        <h3>Air Quality Monitoring and Alert System</h3>
+                        <button class="close-dialog"><i class="fas fa-times"></i></button>
+                    </div>
+                    <img src="assets/air-quality-monitoring.jpg" alt="Air Quality Monitoring and Alert System" class="dialog-img">
+                    <div class="dialog-details">
+                        <p>Our smart air quality monitoring system uses the ESP32 microcontroller and MQ2 gas sensor to detect harmful gases like smoke, LPG, and methane in real-time. The system sends immediate alerts when unsafe levels are detected, ensuring timely action. Data is transmitted to Firebase, where it's processed and stored securely. Users can access live air quality data, detailed analytics, and historical trends through a custom-built Flutter mobile app.</p>
+                        <p><strong>Technologies:</strong> ESP32, MQ2 Sensor, Firebase, Flutter</p>
+                        <p><strong>Year:</strong> 2025</p>
+                        <p><a href="assets/air-quality-monitoring-project.pdf" target="_blank">View Project</a></p>
+                    </div>
+                </div>
+            </dialog>
+            <dialog id="project-dialog-5" class="project-dialog">
+                <div class="dialog-content">
+                    <div class="dialog-header">
+                        <h3>Smart Ambulance System</h3>
+                        <button class="close-dialog"><i class="fas fa-times"></i></button>
+                    </div>
+                    <img src="assets/smart-ambulance-system.jpg" alt="Smart Ambulance System" class="dialog-img">
+                    <div class="dialog-details">
+                        <p>A next-generation traffic management solution designed to prioritize emergency medical response. Utilizes three dedicated Flutter apps for ambulance drivers, traffic controllers, and hospitals to ensure seamless coordination. Integrates ESP32 or STM32 microcontrollers to automatically control traffic signals and create a clear path for ambulances. Real-time ambulance tracking is enabled through Google Maps.</p>
+                        <p><strong>Technologies:</strong> ESP32, STM32, Flutter, Google Maps</p>
+                        <p><strong>Year:</strong> 2025</p>
+                        <p><a href="assets/smart-ambulance-project.pdf" target="_blank">View Project</a></p>
+                    </div>
+                </div>
+            </dialog>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-bg"></div>
+        <div class="container">
+            <h2 class="contact-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info box-theme">
+                    <p>Let’s collaborate on innovative IoT or web projects!</p>
+                    <ul class="contact-links">
+                        <li><a href="mailto:karuppasamy.t2005@gmail.com" class="contact-item"><i class="fas fa-envelope contact-icon"></i>karuppasamy.t2005@gmail.com</a></li>
+                        <li><a href="https://wa.me/+916385478936" target="_blank" class="contact-item"><i class="fab fa-whatsapp contact-icon"></i>WhatsApp</a></li>
+                        <li><a href="https://github.com" target="_blank" class="contact-item"><i class="fab fa-github contact-icon"></i>GitHub</a></li>
+                        <li><a href="https://linkedin.com" target="_blank" class="contact-item"><i class="fab fa-linkedin contact-icon"></i>LinkedIn</a></li>
+                    </ul>
+                    <a href="#contact-dialog" class="cta-button send-message" id="open-contact-dialog">Send a Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <dialog id="contact-dialog" class="contact-dialog">
+        <div class="dialog-content">
+            <div class="dialog-header">
+                <h3>Send a Message</h3>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <div class="contact-options">
+                    <button type="button" id="send-email" class="cta-button">Send Email</button>
+                    <button type="button" id="send-whatsapp" class="cta-button secondary">Send WhatsApp</button>
+                    <button type="button" id="close-contact-dialog" class="cta-button secondary">Close</button>
+                </div>
+            </form>
+        </div>
+    </dialog>
+
+    <footer class="footer">
+        <p>© 2025 Karuppasamy T. Engineered for the future.</p>
+    </footer>
+    <button id="back-to-top" class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
